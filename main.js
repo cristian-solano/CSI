@@ -120,3 +120,83 @@ function ViewTweelth () {
     document.getElementById("view11").style.display = "none"
     document.getElementById("view12").style.display = "flex"
 }
+
+
+function ViewThirteenth () {
+    document.getElementById("view13").style.display = "flex"
+    document.getElementById("view14").style.display = "none"
+    document.getElementById("view15").style.display = "none"
+    document.getElementById("view16").style.display = "none"
+}
+
+function Viewfourteenth () {
+    document.getElementById("view13").style.display = "none"
+    document.getElementById("view14").style.display = "flex"
+    document.getElementById("view15").style.display = "none"
+    document.getElementById("view16").style.display = "none"
+}
+function ViewFifteenth  () {
+    document.getElementById("view13").style.display = "none"
+    document.getElementById("view14").style.display = "none"
+    document.getElementById("view15").style.display = "flex"
+    document.getElementById("view16").style.display = "none"
+}
+function ViewSixtheenth () {
+    document.getElementById("view13").style.display = "none"
+    document.getElementById("view14").style.display = "none"
+    document.getElementById("view15").style.display = "none"
+    document.getElementById("view16").style.display = "flex"
+}
+
+
+function ViewSeventeenth () {
+    document.getElementById("view17").style.display = "flex"
+    document.getElementById("view18").style.display = "none"
+    document.getElementById("view19").style.display = "none"
+    document.getElementById("view20").style.display = "none"
+}
+
+function ViewEightheenth () {
+    document.getElementById("view17").style.display = "none"
+    document.getElementById("view18").style.display = "flex"
+    document.getElementById("view19").style.display = "none"
+    document.getElementById("view20").style.display = "none"
+}
+function ViewNinetheenth  () {
+    document.getElementById("view17").style.display = "none"
+    document.getElementById("view18").style.display = "none"
+    document.getElementById("view19").style.display = "flex"
+    document.getElementById("view20").style.display = "none"
+}
+function ViewTwentyth () {
+    document.getElementById("view17").style.display = "none"
+    document.getElementById("view18").style.display = "none"
+    document.getElementById("view19").style.display = "none"
+    document.getElementById("view20").style.display = "flex"
+}
+
+function ViewTwentyOneth () {
+    document.getElementById("view21").style.display = "flex"
+    document.getElementById("view22").style.display = "none"
+    document.getElementById("view23").style.display = "none"
+    document.getElementById("view24").style.display = "none"
+}
+
+function ViewTwentyTwoth () {
+    document.getElementById("view21").style.display = "none"
+    document.getElementById("view22").style.display = "flex"
+    document.getElementById("view23").style.display = "none"
+    document.getElementById("view24").style.display = "none"
+}
+function ViewTwentyThreeth  () {
+    document.getElementById("view21").style.display = "none"
+    document.getElementById("view22").style.display = "none"
+    document.getElementById("view23").style.display = "flex"
+    document.getElementById("view24").style.display = "none"
+}
+function ViewTwentyFourth () {
+    document.getElementById("view21").style.display = "none"
+    document.getElementById("view22").style.display = "none"
+    document.getElementById("view23").style.display = "none"
+    document.getElementById("view24").style.display = "flex"
+}

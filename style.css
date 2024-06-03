@@ -425,6 +425,86 @@
     display: none;
 }
 
+#close-message5:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message6:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message7:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message8:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message9:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message10:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message11:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message12:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message13:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message14:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message15:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message16:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message17:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message18:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message19:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message20:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message21:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message22:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message23:checked + .first-video-image-one-message {
+    display: none;
+}
+
+#close-message24:checked + .first-video-image-one-message {
+    display: none;
+}
+
 .message {
     display: flex;
     flex-direction: column;
@@ -1160,7 +1240,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .csi-container {
         width: 100%;
         height: 600px;
