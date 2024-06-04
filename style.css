@@ -1228,30 +1228,40 @@
         width: 32px;
         height: 32px;
         font-size: 12px;
+        top: 410px;
+        left: 120px;
     }
     
     .csi-map .csi-map-label3{
         width: 32px;
         height: 32px;
         font-size: 12px;
+        top: 540px;
+        right: 100px;
     }
     
     .csi-map .csi-map-label4{
         width: 32px;
         height: 32px;
         font-size: 12px;
+        top: 680px;
+        left: 120px;
     }
     
     .csi-map .csi-map-label5{
         width: 32px;
         height: 32px;
         font-size: 12px;
+        top: 950px;
+        left: 235px;
     }
     
     .csi-map .csi-map-label6{
         width: 32px;
         height: 32px;
         font-size: 12px;
+        top: 1200px;
+        left: 120px;
     }
 
 }
@@ -1617,8 +1627,8 @@
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 100px;
-        right: 95px;
+        top: 220px;
+        right: 150px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1632,7 +1642,7 @@
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 200px;
+        top: 420px;
         left: 25px;
         border-radius: 50%;
         background: #041629;
@@ -1647,7 +1657,7 @@
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 305px;
+        top: 580px;
         right: 20px;
         border-radius: 50%;
         background: #041629;
@@ -1662,8 +1672,8 @@
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 395px;
-        left: -10px;
+        top: 720px;
+        left: 25px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1677,8 +1687,8 @@
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 565px;
-        left: 0px;
+        top: 1000px;
+        left: 150px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1692,8 +1702,8 @@
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 510px;
-        right: 15px;
+        top: 1200px;
+        left: 25px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1747,58 +1757,58 @@
         width: 80%;
     }
 
-    .csi-map .csi-map-label1{
-        width: 32px;
-        height: 32px;
-        position: absolute;
-        top: 100px;
-        right: 80px;
-        border-radius: 50%;
-        background: #041629;
-        color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 13px;
-    }
+        .csi-map .csi-map-label1{
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            top: 270px;
+            right: 100px;
+            border-radius: 50%;
+            background: #041629;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+        }
 
-    .csi-map .csi-map-label2{
-        
-        position: absolute;
-        top: 200px;
-        left: 30px;
-        
-    }
+        .csi-map .csi-map-label2{
+            
+            position: absolute;
+            top: 460px;
+            left: 0px;
+            
+        }
 
-    .csi-map .csi-map-label3{
-       
-        position: absolute;
-        top: 300px;
-        right: 16px;
+        .csi-map .csi-map-label3{
         
-    }
+            position: absolute;
+            top: 600px;
+            right: 0px;
+            
+        }
 
-    .csi-map .csi-map-label4{
-        
-        position: absolute;
-        top: 395px;
-        left: -10px;
-        
-    }
+        .csi-map .csi-map-label4{
+            
+            position: absolute;
+            top: 730px;
+            left: 0px;
+            
+        }
 
-    .csi-map .csi-map-label5{
-        
-        position: absolute;
-        top: 565px;
-        left: 0px;
-        
-    }
+        .csi-map .csi-map-label5{
+            
+            position: absolute;
+            top: 1015px;
+            left: 105px;
+            
+        }
 
-    .csi-map .csi-map-label6{
+        .csi-map .csi-map-label6{
+            
+            position: absolute;
+            top: 1200px;
+            left: -20px;
         
-        position: absolute;
-        top: 510px;
-        right: 5px;
-    
-    }
+        }
 }
