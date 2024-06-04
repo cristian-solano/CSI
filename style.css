@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/fkz1onr.css");
 
 body {
-    font-family: 'Fino Sans', sans-serif;
+    font-family: 'fino-sans', sans-serif;
 }
 
 * {
@@ -94,7 +94,7 @@ body {
     font-size: 70px;
     text-align: center;
     line-height: 70px;
-    font-family: 'fino sans', sans-serif !important;
+    font-family: 'fino-sans', sans-serif !important;
 }
 
 .csi-message-wel {
@@ -185,7 +185,7 @@ body {
     width: 350px;
     font-size: 70px;
     line-height: 70px;
-    font-family: 'fino sans', sans-serif;
+    font-family: 'fino-sans', sans-serif;
     font-weight: lighter;
 }
 
@@ -247,7 +247,7 @@ body {
 .csi-project-redifing-title p {
     font-size: 70px;
     line-height: 70px;
-    font-family: 'fino sans', sans-serif;
+    font-family: 'fino-sans', sans-serif;
     width: 400px;
 }
 
@@ -290,13 +290,13 @@ body {
 
 .csi-project-list-info span {
     font-size: 45px;
-    font-family: 'fino sans', sans-serif;
+    font-family: 'fino-sans', sans-serif;
     color: #1E618E;
 }
 
 .csi-project-list-info p {
     font-size: 40px;
-    font-family: 'fino sans', sans-serif;
+    font-family: 'fino-sans', sans-serif;
 }
 
 .first-video {
@@ -382,7 +382,7 @@ body {
 .first-video-content-title h2 {
     font-size: 50px;
     line-height: 48px;
-    font-family: 'fino sans',sans-serif;
+    font-family: 'fino-sans',sans-serif;
     font-weight: 100;
 }
 
@@ -856,7 +856,7 @@ body {
     width: 500px;
     font-size: 80px;
     line-height: 78px;
-    font-family: 'fino sans', sans-serif;
+    font-family: 'fino-sans', sans-serif;
 }
 
 .csi-content-exp-text-item span {
@@ -1133,7 +1133,7 @@ body {
         flex-direction: column;
         justify-items: flex-end;
         align-items: center;
-        background: linear-gradient(to bottom, #9d9d9d, #02020279), url('/Images/picture2.png');
+        background: linear-gradient(to bottom, #9d9d9d00, #02020200), url('/Images/gallery2/Header.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding: 0;
@@ -1191,7 +1191,7 @@ body {
     .csi-content-exp-information-item p{
         font-size: 80px;
         line-height: 78px;
-        font-family: 'fino sans', sans-serif;
+        font-family: 'fino-sans', sans-serif;
         text-align: center;
     }
 
@@ -1389,7 +1389,7 @@ body {
         justify-content: space-between;
         align-items: center;
         padding: 30px 30px 50px 30px;
-        background: linear-gradient(to bottom, #ffffff43, #000000bb), url('./Images/cruise.jpg') fixed;
+        background: linear-gradient(to bottom, #ffffff43, #000000bb), url('./Images/cruise.jpg');
         background-size: cover;
         background-repeat: no-repeat; 
     }
@@ -1583,7 +1583,7 @@ body {
         font-weight: 100;
         text-align: center;
         line-height: 32px;
-        font-family: 'fino sans', sans-serif;
+        font-family: 'fino-sans', sans-serif;
     }
     
     .csi-message-wel {
@@ -1631,7 +1631,7 @@ body {
     .csi-picture p {
         font-size: 50px;
         line-height: 48px;
-        font-family: 'fino sans', sans-serif;
+        font-family: 'fino-sans', sans-serif;
         font-weight: 100;
     }
 
@@ -1673,7 +1673,7 @@ body {
         font-size: 40px;
         line-height: 48px;
         font-weight: 300;
-        font-family: 'fino sans', sans-serif;
+        font-family: 'fino-sans', sans-serif;
         font-weight: 100;
         text-align: center;
     }
