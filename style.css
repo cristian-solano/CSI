@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'Fino Sans';
-    src: url('path/to/FinoSans-Regular.woff2') format('woff2'),
-         url('path/to/FinoSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url("https://use.typekit.net/fkz1onr.css");
 
 body {
     font-family: 'Fino Sans', sans-serif;
