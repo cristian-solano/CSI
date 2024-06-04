@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 100px 30px 50px 30px;
-    background: linear-gradient(to bottom, #ffffff00, #0000000a), url('./Images/principal1.svg') fixed;
+    background: linear-gradient(to bottom, #ffffff00, #00000054), url('./Images/principal1.svg') fixed;
     background-size: cover;
     background-repeat: no-repeat; 
 }
@@ -1184,7 +1184,7 @@ body {
 
     .csi-content-exp-information-item span {
         font-size: 15px;
-        line-height: 35px;
+        line-height: 25px;
         font-weight: 200;
         text-align: center;
     }
@@ -1231,7 +1231,7 @@ body {
 
 @media (max-width: 768px) {
     .csi-container {
-        background: linear-gradient(to bottom, #ffffff43, #000000bb), url('./Images/principal.png') fixed;
+        background: linear-gradient(to bottom, #ffffff00, #0000005c), url('./Images/principal.png') fixed;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -1390,7 +1390,7 @@ body {
         justify-content: space-between;
         align-items: center;
         padding: 30px 30px 50px 30px;
-        background: linear-gradient(to bottom, #ffffff43, #000000bb), url('./Images/cruise.jpg');
+        background: linear-gradient(to bottom, #ffffff00, #00000046), url('./Images/cruise.jpg');
         background-size: cover;
         background-repeat: no-repeat; 
     }
