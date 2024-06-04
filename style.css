@@ -622,6 +622,11 @@ body {
 
 }
 
+.csi-list-photos .csi-label-view-no-border {
+    border-right: 0px;
+    padding: 0;
+}
+
 .csi-list-photos .csi-label-view:hover {
     color: #fff;
 } 
