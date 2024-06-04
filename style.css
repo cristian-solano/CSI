@@ -435,6 +435,11 @@
     display: none;
 }
 
+.first-video-image-one-content iframe {
+    width: 600px;
+    height: 400px;
+}
+
 .first-video-image-one-content img {
     width: 1200px;
     height: 500px;
@@ -1352,6 +1357,13 @@
     .first-video-image-one-content {
         width: 400px;
     }
+
+    .first-video-image-one-content iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+
 
 
     .csi-list-photos {
