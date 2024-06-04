@@ -135,7 +135,7 @@ body {
 }
 
 .csi-text p {
-    width: 600px;
+    width: 650px;
     font-size: 18px;
     line-height: 35px;
     text-align: center;
@@ -886,7 +886,6 @@ body {
     height: auto;
     margin: auto;
     overflow: hidden;
-    border: 1px solid #707070;
 }
 
 .slides {
