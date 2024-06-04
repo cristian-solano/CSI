@@ -1,10 +1,21 @@
 @import url("https://use.typekit.net/fkz1onr.css");
 
+@font-face {
+    font-family: 'Fino Sans';
+    src: url('path/to/FinoSans-Regular.woff2') format('woff2'),
+         url('path/to/FinoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Fino Sans', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
 }
 
 .csi-container {
