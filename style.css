@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 100px 30px 50px 30px;
-    background: linear-gradient(to bottom, #ffffff43, #000000bb), url('./Images/principal1.svg') fixed;
+    background: linear-gradient(to bottom, #ffffff00, #0000000a), url('./Images/principal1.svg') fixed;
     background-size: cover;
     background-repeat: no-repeat; 
 }
