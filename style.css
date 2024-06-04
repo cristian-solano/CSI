@@ -1295,9 +1295,10 @@
         font-weight: 100;
     }
 
-    .first-video-image-one-content img {
-        width: 100%;
+    .first-video-image-one-content {
+        width: 400px;
     }
+
 
     .csi-list-photos {
         padding: 20px;
