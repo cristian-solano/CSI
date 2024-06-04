@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'fino sans';
-    src: url('/fonts/fino-sans.woff') format('woff');
-}
+@import url("https://use.typekit.net/fkz1onr.css");
 
 * {
     margin: 0;
@@ -24,16 +21,30 @@
 }
 
 .csi-menu-content {
-    display: flex;
-    position: initial;
-    color: #ffffff;
-    background-color: #226996;
-    width: 200px;
-    height: 40px;
+    background-color: #226a9655;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.csi-menu-content:hover {
+    cursor: pointer;
+    background-color: #226996;
+}
+
+.csi-menu-content img {
+    width: 30px;
+    height: 30px;
+}
+
+.csi-menu-content p {
+    display: none;
 }
 
 .csi-menu-content a {
@@ -41,6 +52,9 @@
     color: inherit;
     text-transform: uppercase;
     letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .csi-logo {
@@ -64,7 +78,7 @@
 }
 
 .csi-title {
-    width: 550px;
+    width: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,10 +87,10 @@
 
 .csi-title h1{
     color: #ffffff;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 100;
     text-align: center;
-    line-height: 48px;
+    line-height: 70px;
     font-family: 'fino sans', sans-serif !important;
 }
 
@@ -102,8 +116,7 @@
 }
 
 .csi-image-anc img {
-    width: 24px;
-    height: 32px;
+    width: 40px;
 }
 
 
@@ -144,7 +157,8 @@
     height: 700px;
     position: relative;
     z-index: 1;
-    top: 100px
+    top: 100px;
+    object-fit: cover;
 }
 
 .csi-picture-text {
@@ -166,7 +180,8 @@
 
 .csi-picture-text p {
     width: 350px;
-    font-size: 80px;
+    font-size: 70px;
+    line-height: 70px;
     font-family: 'fino sans', sans-serif;
     font-weight: lighter;
 }
@@ -227,10 +242,10 @@
 }
 
 .csi-project-redifing-title p {
-    font-size: 80px;
-    line-height: 78px;
+    font-size: 70px;
+    line-height: 70px;
     font-family: 'fino sans', sans-serif;
-    width: 400px;
+    width: auto;
 }
 
 .csi-project-redifing span {
@@ -542,6 +557,10 @@
     display: none;
 }
 
+#close-message25:checked + .first-video-image-one-message {
+    display: none;
+}
+
 .message {
     display: flex;
     flex-direction: column;
@@ -551,12 +570,12 @@
 }
 
 .message img {
-    width: 26px;
-    height: 26px;
+    width: 40px;
+    height: 40px;
 }
 
 .message p {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -871,7 +890,7 @@
     width: 100%;
     height: 700px;
     vertical-align: middle;
-    object-fit:fill;
+    object-fit:cover;
 
 }
 
@@ -884,9 +903,11 @@
     padding: 16px;
     color: #ffffff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     transition: 0.6s ease;
     user-select: none;
+    background: none;
+    border: none
 }
 
 .next {
@@ -895,7 +916,7 @@
 }
 
 .prev:hover, .next:hover {
-    background-color: #1E618E;
+    color: #000000;
 }
 
 .footer {
@@ -1367,6 +1388,16 @@
         bottom: 0;
         display: flex;
         z-index: 3;
+        padding: 0;
+    }
+
+    .csi-menu-content p {
+        display: flex;
+        font-weight: 200;
+    }
+
+    .csi-menu-content img {
+        display: none;
     }
 
     .csi-contact {
@@ -1569,7 +1600,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        background: linear-gradient(to bottom, #ffffff43, #000000a8), url('./Images/bedroomPicture.png');
+        background: linear-gradient(to bottom, #ffffff00, #00000043), url('./Images/bedroomPicture.png');
         padding: 30px 40px 20px 40px;
         color: #ffffff;
         background-size: cover;

@@ -180,6 +180,7 @@ function ViewTwentyOneth () {
     document.getElementById("view22").style.display = "none"
     document.getElementById("view23").style.display = "none"
     document.getElementById("view24").style.display = "none"
+    document.getElementById("view25").style.display = "none"
 }
 
 function ViewTwentyTwoth () {
@@ -187,16 +188,27 @@ function ViewTwentyTwoth () {
     document.getElementById("view22").style.display = "flex"
     document.getElementById("view23").style.display = "none"
     document.getElementById("view24").style.display = "none"
+    document.getElementById("view25").style.display = "none"
 }
 function ViewTwentyThreeth  () {
     document.getElementById("view21").style.display = "none"
     document.getElementById("view22").style.display = "none"
     document.getElementById("view23").style.display = "flex"
     document.getElementById("view24").style.display = "none"
+    document.getElementById("view25").style.display = "none"
 }
 function ViewTwentyFourth () {
     document.getElementById("view21").style.display = "none"
     document.getElementById("view22").style.display = "none"
     document.getElementById("view23").style.display = "none"
     document.getElementById("view24").style.display = "flex"
+    document.getElementById("view25").style.display = "none"
+}
+
+function ViewTwentyFifth () {
+    document.getElementById("view21").style.display = "none"
+    document.getElementById("view22").style.display = "none"
+    document.getElementById("view23").style.display = "none"
+    document.getElementById("view24").style.display = "none"
+    document.getElementById("view25").style.display = "flex"
 }
