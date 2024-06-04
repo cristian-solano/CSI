@@ -56,7 +56,7 @@
     font-weight: 100;
     text-align: center;
     line-height: 48px;
-    font-family: 'Fino sans', sans-serif;
+    font-family: 'fino sans', sans-serif;
 }
 
 .csi-message-wel {
@@ -118,9 +118,10 @@
 
 .csi-picture-image img {
     width: 980px;
+    height: 700px;
     position: relative;
     z-index: 1;
-    top: 120px
+    top: 100px
 }
 
 .csi-picture-text {
@@ -130,7 +131,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
-    padding: 50px 0 0 0;
+    padding: 50px 0 30px 0;
 }
 
 .csi-picture-text h4 {
@@ -143,7 +144,7 @@
 .csi-picture-text p {
     width: 350px;
     font-size: 80px;
-    font-family: 'Fino sans', sans-serif;
+    font-family: 'fino sans', sans-serif;
     font-weight: lighter;
 }
 
@@ -166,7 +167,7 @@
     gap: 300px;
     background-color: #051628;
     color: #ffffff;
-    padding: 250px 250px 500px 300px;
+    padding: 250px 250px 600px 300px;
 }
 
 .csi-project-items {
@@ -205,7 +206,7 @@
 .csi-project-redifing-title p {
     font-size: 80px;
     line-height: 78px;
-    font-family: 'Fino sans', sans-serif;
+    font-family: 'fino sans', sans-serif;
     width: 400px;
 }
 
@@ -248,13 +249,13 @@
 
 .csi-project-list-info span {
     font-size: 45px;
-    font-family: 'Fino sans', sans-serif;
+    font-family: 'fino sans', sans-serif;
     color: #1E618E;
 }
 
 .csi-project-list-info p {
-    font-size: 45px;
-    font-family: 'Fino sans', sans-serif;
+    font-size: 40px;
+    font-family: 'fino sans', sans-serif;
 }
 
 .first-video {
@@ -341,7 +342,7 @@
 .first-video-content-title h2 {
     font-size: 50px;
     line-height: 48px;
-    font-family: 'Fino sans',sans-serif;
+    font-family: 'fino sans',sans-serif;
     font-weight: 100;
 }
 
@@ -796,7 +797,7 @@
     width: 500px;
     font-size: 80px;
     line-height: 78px;
-    font-family: 'Fino sans', sans-serif;
+    font-family: 'fino sans', sans-serif;
 }
 
 .csi-content-exp-text-item span {
@@ -1128,7 +1129,7 @@
     .csi-content-exp-information-item p{
         font-size: 80px;
         line-height: 78px;
-        font-family: 'Fino sans', sans-serif;
+        font-family: 'fino sans', sans-serif;
         text-align: center;
     }
 
@@ -1503,7 +1504,7 @@
         font-weight: 100;
         text-align: center;
         line-height: 48px;
-        font-family: 'Fino sans', sans-serif;
+        font-family: 'fino sans', sans-serif;
     }
     
     .csi-message-wel {
@@ -1550,7 +1551,7 @@
     .csi-picture p {
         font-size: 50px;
         line-height: 48px;
-        font-family: 'Fino sans', sans-serif;
+        font-family: 'fino sans', sans-serif;
         font-weight: 100;
     }
 
@@ -1592,7 +1593,7 @@
         font-size: 40px;
         line-height: 48px;
         font-weight: 300;
-        font-family: 'Fino sans', sans-serif;
+        font-family: 'fino sans', sans-serif;
         font-weight: 100;
         text-align: center;
     }
