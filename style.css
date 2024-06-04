@@ -7,19 +7,35 @@
 
 .csi-container {
     width: 100%;
-    height: 1080px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 100px 30px 50px 30px;
     background: linear-gradient(to bottom, #ffffff43, #000000bb), url('./Images/principal1.svg') fixed;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat; 
 }
 
 .csi-menu-content {
-    display: none;
+    display: flex;
+    position: initial;
+    color: #ffffff;
+    background-color: #226996;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.csi-menu-content a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .csi-logo {
@@ -56,7 +72,7 @@
     font-weight: 100;
     text-align: center;
     line-height: 48px;
-    font-family: 'fino sans', sans-serif;
+    font-family: 'fino sans', sans-serif !important;
 }
 
 .csi-message-wel {
@@ -89,8 +105,10 @@
 .csi-text {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     padding: 100px 100px 0 100px;
 }
 
@@ -418,6 +436,11 @@
     cursor: pointer;
 }
 
+.first-video-video {
+    top: 20%;
+    height: 200px;
+}
+
 #close-message1:checked + .first-video-image-one-message {
     display: none;
 }
@@ -554,7 +577,7 @@
 .csi-list-photos .csi-label-view {
     width: 120px;
     color: #ffffff98;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -816,6 +839,7 @@
 .csi-content-exp-image img{
     width: 842px;
     height: 1000px;
+    object-fit: cover;
 }
 
 
@@ -840,7 +864,10 @@
 
 .slide img {
     width: 100%;
+    height: 700px;
     vertical-align: middle;
+    object-fit:fill;
+
 }
 
 .prev, .next {
@@ -1306,12 +1333,12 @@
     }
 
     .csi-list-photos .csi-label-view {
-        width: 70px;
+        width: 80px;
         font-size: 10px;
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 430px) {
     .csi-container {
         width: 100%;
         height: 600px;
@@ -1503,7 +1530,7 @@
         font-size: 30px;
         font-weight: 100;
         text-align: center;
-        line-height: 48px;
+        line-height: 32px;
         font-family: 'fino sans', sans-serif;
     }
     
@@ -1537,9 +1564,10 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        background: linear-gradient(to bottom, #ffffff43, #000000a8), url('./Images/picture1.svg');
+        background: linear-gradient(to bottom, #ffffff43, #000000a8), url('./Images/bedroomPicture.png');
         padding: 30px 40px 20px 40px;
         color: #ffffff;
+        background-size: cover;
     }
 
     .csi-picture h4 {
@@ -1629,8 +1657,8 @@
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 220px;
-        right: 150px;
+        top: 225px;
+        right: 160px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1690,7 +1718,7 @@
         height: 32px;
         position: absolute;
         top: 1000px;
-        left: 150px;
+        left: 160px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1745,7 +1773,7 @@
     }
 
     .footer {
-        margin: 50px 0 0 0;
+        margin: 50px 0 30px 0;
     }
 
     .footer-content {
