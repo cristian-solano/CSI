@@ -953,6 +953,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    text-decoration: none;
+    color: inherit;
 
 
 }
