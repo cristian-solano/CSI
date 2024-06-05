@@ -393,7 +393,7 @@ body {
 }
 
 .first-video-image-one {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1435,7 +1435,7 @@ body {
     }
 
     .first-video-content-title {
-        padding: 50px 70px 20px 100px;
+        padding: 50px 0px 0px 0px;
     }
 
     .first-video-content-title h2 {
@@ -1443,6 +1443,10 @@ body {
         font-size: 50px;
         line-height: 48px;
         font-weight: 100;
+    }
+
+    .first-video-content {
+        padding: 0 0px 10px;
     }
 
     .first-video-image-one-content {
@@ -1456,6 +1460,10 @@ body {
 
 
 
+    .csi-list-photos-pan .csi-label-view-pan {
+        width: 80px;
+        font-size: 10px;
+    }
 
     .csi-list-photos {
         padding: 20px;
