@@ -677,8 +677,8 @@ body {
     width: 64px;
     height: 64px;
     position: absolute;
-    top: 220px;
-    right: 220px;
+    top: 1600px;
+    left: 220px;
     border-radius: 50%;
     background: #041629;
     color: #ffffff;
@@ -701,8 +701,8 @@ body {
     width: 64px;
     height: 64px;
     position: absolute;
-    top: 470px;
-    left: 75px;
+    top: 1390px;
+    right: 70px;
     border-radius: 50%;
     background: #041629;
     color: #ffffff;
@@ -725,8 +725,8 @@ body {
     width: 64px;
     height: 64px;
     position: absolute;
-    top: 650px;
-    right: 80px;
+    top: 1150px;
+    left: 40px;
     border-radius: 50%;
     background: #041629;
     color: #ffffff;
@@ -749,8 +749,8 @@ body {
     width: 64px;
     height: 64px;
     position: absolute;
-    top: 840px;
-    left: 80px;
+    top: 1000px;
+    right: 40px;
     border-radius: 50%;
     background: #041629;
     color: #ffffff;
@@ -773,7 +773,7 @@ body {
     width: 64px;
     height: 64px;
     position: absolute;
-    top: 1200px;
+    top: 770px;
     left: 220px;
     border-radius: 50%;
     background: #041629;
@@ -797,8 +797,8 @@ body {
     width: 64px;
     height: 64px;
     position: absolute;
-    top: 1500px;
-    left: 30px;
+    top: 420px;
+    right: 30px;
     border-radius: 50%;
     background: #041629;
     color: #ffffff;
@@ -1139,6 +1139,7 @@ body {
         background: linear-gradient(to bottom, #9d9d9d00, #02020200), url('/Images/gallery2/Header.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
         padding: 0;
     }
 
@@ -1230,25 +1231,31 @@ body {
         width: 100%;
     }
 
+    .csi-map .csi-map-label1 {
+        top: 1224px
+    }
+
     .csi-map .csi-map-label2 {
-        top: 410px;
+        top: 1045px;
     }
 
     .csi-map .csi-map-label3 {
-        top: 550px;
+        top: 950px;
+        left: 100px;
     }
 
     .csi-map .csi-map-label4 {
-        top: 740px
+        top: 830px;
+        right: 70px;
     }
 
     .csi-map .csi-map-label5 {
-        top: 950px;
+        top: 650px;
     }
 
     .csi-map .csi-map-label6 {
-        top: 1100px;
-        left: 60px;
+        top: 400px;
+        right: 60px;
     }
 }
 
@@ -1315,15 +1322,15 @@ body {
         width: 32px;
         height: 32px;
         font-size: 12px;
-        top: 410px;
-        left: 120px;
+        top: 1050px;
+        right: 120px;
     }
     
     .csi-map .csi-map-label3{
         width: 32px;
         height: 32px;
         font-size: 12px;
-        top: 540px;
+        top:950px;
         right: 100px;
     }
     
@@ -1331,15 +1338,15 @@ body {
         width: 32px;
         height: 32px;
         font-size: 12px;
-        top: 680px;
-        left: 120px;
+        top: 780px;
+        right: 100px;
     }
     
     .csi-map .csi-map-label5{
         width: 32px;
         height: 32px;
         font-size: 12px;
-        top: 950px;
+        top: 650px;
         left: 235px;
     }
     
@@ -1347,8 +1354,8 @@ body {
         width: 32px;
         height: 32px;
         font-size: 12px;
-        top: 1200px;
-        left: 120px;
+        top: 400px;
+        right: 100px;
     }
 
 
@@ -1738,8 +1745,8 @@ body {
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 225px;
-        right: 160px;
+        top: 1260px;
+        left: 165px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1753,8 +1760,8 @@ body {
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 420px;
-        left: 25px;
+        top: 1100px;
+        right: 25px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1768,8 +1775,8 @@ body {
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 580px;
-        right: 20px;
+        top: 970px;
+        left: 20px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1783,8 +1790,8 @@ body {
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 720px;
-        left: 25px;
+        top: 820px;
+        right: 25px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
@@ -1798,7 +1805,7 @@ body {
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 1000px;
+        top: 670px;
         left: 160px;
         border-radius: 50%;
         background: #041629;
@@ -1813,8 +1820,8 @@ body {
         width: 32px;
         height: 32px;
         position: absolute;
-        top: 1200px;
-        left: 25px;
+        top: 450px;
+        right: 25px;
         border-radius: 50%;
         background: #041629;
         color: #ffffff;
