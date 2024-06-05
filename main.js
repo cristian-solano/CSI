@@ -212,3 +212,5 @@ function ViewTwentyFifth () {
     document.getElementById("view24").style.display = "none"
     document.getElementById("view25").style.display = "flex"
 }
+
+

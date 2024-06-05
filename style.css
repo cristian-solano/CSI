@@ -352,6 +352,7 @@ body {
     font-weight: bold;
     background-color: #ffffff;
     border: 1px solid #000000a8;
+    cursor: pointer;
 }
 
 .first-video-content {
@@ -462,6 +463,17 @@ body {
     width: auto;
     height: 300px;
     cursor: pointer;
+    transition: 1s;
+    animation: disabled 2s forwards;
+}
+
+@keyframes disabled {
+        0% {
+            display: flex;
+        }
+        100% {
+            display: none;
+        }
 }
 
 .first-video-video {
