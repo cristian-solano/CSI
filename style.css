@@ -322,6 +322,7 @@ body {
 #csi-first-video1:checked + .first-video {
     clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
 }
+
 #csi-first-video2:checked + .first-video {
     clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
 }
@@ -464,6 +465,9 @@ body {
     height: 300px;
     cursor: pointer;
     transition: 1s;
+}
+
+.first-video-image-second-message {
     animation: disabled 2s forwards;
 }
 
