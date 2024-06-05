@@ -20,6 +20,7 @@ body {
     align-items: center;
     padding: 100px 30px 50px 30px;
     background: linear-gradient(to bottom, #ffffff00, #00000054), url('./Images/gallery2/Header.jpg') fixed;
+    background-size: cover;
     background-repeat: no-repeat; 
 }
 
