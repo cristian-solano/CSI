@@ -19,8 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 100px 30px 50px 30px;
-    background: linear-gradient(to bottom, #ffffff00, #00000054), url('./Images/principal1.svg') fixed;
-    background-size: cover;
+    background: linear-gradient(to bottom, #ffffff00, #00000054), url('./Images/gallery2/Header.jpg') fixed;
     background-repeat: no-repeat; 
 }
 
@@ -1002,7 +1001,7 @@ body {
     }
 
     .csi-project-content-map {
-        padding: 250px 250px 250px 300px;
+        padding: 250px 250px 400px 300px;
     }
 
     .csi-content-expanding {
