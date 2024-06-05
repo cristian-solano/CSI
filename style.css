@@ -342,7 +342,7 @@ body {
 .first-video-close {
     width: 50px;
     height: 50px;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     display: flex;
@@ -363,6 +363,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    position: relative;
+    padding: 0 30px 30px 30px;
 }
 
 .first-video-content-title {
@@ -370,9 +372,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
-    padding: 50px 50px 20px 50px;
+    padding: 50px 50px 0px 50px;
 }
 
 .first-video-content-title p{
@@ -387,6 +389,7 @@ body {
     line-height: 48px;
     font-family: 'fino-sans',sans-serif;
     font-weight: 100;
+    text-align: center;
 }
 
 .first-video-image-one {
@@ -611,7 +614,13 @@ body {
 
 
 
+.csi-list-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
 
+}
 
 
 .csi-list-photos {
@@ -619,11 +628,37 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 50px;
+    padding: 10px;
 }
+
+.csi-list-photos-pan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 30px 30px 30px;
+}
+
 
 .csi-list-photos .csi-label-view {
     width: 120px;
+    color: #ffffff98;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #226996;
+    padding: 0 10px 0 10px;
+
+}
+
+.csi-list-photos-pan .csi-label-view-pan {
+    width: 150px;
     color: #ffffff98;
     font-size: 13px;
     font-weight: bold;
