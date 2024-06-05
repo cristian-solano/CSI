@@ -1053,7 +1053,7 @@ body {
     }
 
     .csi-project-content-map {
-        padding: 40px;
+        padding: 40px 40px 400px 40px;
     }
    
 }
@@ -1097,6 +1097,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 50px;
+        padding: 40px;
     }
 
     .csi-project-list-labels {
@@ -1228,6 +1229,27 @@ body {
     .csi-text p {
         width: 100%;
     }
+
+    .csi-map .csi-map-label2 {
+        top: 410px;
+    }
+
+    .csi-map .csi-map-label3 {
+        top: 550px;
+    }
+
+    .csi-map .csi-map-label4 {
+        top: 740px
+    }
+
+    .csi-map .csi-map-label5 {
+        top: 950px;
+    }
+
+    .csi-map .csi-map-label6 {
+        top: 1100px;
+        left: 60px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1327,6 +1349,11 @@ body {
         font-size: 12px;
         top: 1200px;
         left: 120px;
+    }
+
+
+    .message img{
+        content: url('/Images/slideIcon.svg');
     }
 
 }
