@@ -1879,8 +1879,8 @@ body {
             width: 32px;
             height: 32px;
             position: absolute;
-            top: 270px;
-            right: 100px;
+            top: 1300px;
+            left: 110px;
             border-radius: 50%;
             background: #041629;
             color: #ffffff;
@@ -1893,31 +1893,31 @@ body {
         .csi-map .csi-map-label2{
             
             position: absolute;
-            top: 460px;
-            left: 0px;
+            top: 1140px;
+            right: 0px;
             
         }
 
         .csi-map .csi-map-label3{
         
             position: absolute;
-            top: 600px;
-            right: 0px;
+            top: 1000px;
+            left: -10px;
             
         }
 
         .csi-map .csi-map-label4{
             
             position: absolute;
-            top: 730px;
-            left: 0px;
+            top: 870px;
+            right: -10px;
             
         }
 
         .csi-map .csi-map-label5{
             
             position: absolute;
-            top: 1015px;
+            top: 690px;
             left: 105px;
             
         }
@@ -1925,8 +1925,8 @@ body {
         .csi-map .csi-map-label6{
             
             position: absolute;
-            top: 1200px;
-            left: -20px;
+            top:450px;
+            right: -20px;
         
         }
 }
